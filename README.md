@@ -1,2 +1,2 @@
-# 2023-Learning-Drive
+# learning_notes_2023
 So far i didn't know any description
