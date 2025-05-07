@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<head>
+    <title>variables</title>
+</head>
+<body>
+    <p id="p1"></p>
+    <p id="p2"></p>
+    <p id="p3"></p>
+
+    <script>
+        // To catch and hold values, JavaScript provides a thing called a binding, or variable.
+        // The = operator can be used at any time on existing bindings to disconnect them from their current value and have them point to a new one.
+        let x = 5;  // x is initially bound to the value 5
+        x = 10;  // Now, x is reassigned and bound to the value 10
+
+        // declaration (var,let)
+        let int=10;
+        const str="hello my name is muneeb";
+        let bool=true
+
+        // print on console
+        console.log("lucky number:",int);
+        console.log("Message:",str);
+        console.log("Aot is a goat🐐 anime:",bool);
+
+        // print on window
+        document.getElementById("p1").innerHTML="lucky number:"+int;
+        document.getElementById("p2").innerHTML="Message:"+str;
+        document.getElementById("p3").innerHTML="Aot is a goat🐐 anime:"+bool;
+
+        // declaration (const) --> a variable that can't be changed 
+        str="hello my name is jason";
+        console.log("Message:",str);  //error because it can't changed.
+
+        // diff b/w let or var
+        for(let i=0;i<3;i+=1){
+            // ...
+        }
+        console.log(i)  //ReferenceError
+        for(var i=0;i<3;i+=1){
+            // ...
+        }
+        console.log(i)
+
+// variable scope=where a variable is accessible
+// let=variable are limited to block scope{}
+// var=varible are limited to a function(){}
+// globel variable=this variable is declared outside any function 
+// globel var will change browser window properties
+
+        var name="sexy ***";  //This creates a global variable and changes the window property
+    </script>
+</body>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<head>
+    <title>getting input from user</title>
+</head>
+<body>
+    <label id="label-1">Enter username</label><br>
+    <input type="text" id="text-1" name="username" placeholder="johndoe"><br>
+    <button id="button-1">button</button>
+    <!-- <button id="button-1" onclick="getUser()">button</button> -->
+
+    <script>
+        // easy way
+        // let username;
+        // username=window.prompt("enter username")
+        // console.log(username)
+
+        // hard way(more reliable)
+        let username;
+        document.getElementById("button-1").onclick=function getUser(){
+            username=document.getElementById("text-1").value;
+            console.log(username);
+            // document.getElementById("label-1").innerHTML='hello '+username;
+        }
+
+        // function getUser(){
+        //     let username;
+        //     username=document.getElementById("text-1").value;
+        //     console.log(username);
+        // }
+    </script>
+</body>
+</html>

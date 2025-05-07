@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>arrow functions</title>
+</head>
+<body>
+    <label id="lab">0</label><br>
+    <button id="inc">increase</button>
+    <button id="dec">decrease</button>
+    <script>
+        //arrow functions
+        let greet=()=>console.log('hello world!')
+        greet()
+
+        let fruits=["apple", "banana", "orange"];
+
+        fruits.forEach((fruit, index) => {
+        console.log(`Index ${index}: ${fruit}`);
+        });
+
+    </script>
+</body>
+</html>

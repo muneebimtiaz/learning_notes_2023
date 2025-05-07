@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<head>
+    <title>Rolling Dice</title>
+</head>
+<body>
+    <p id="p1">X</p>
+    <p id="p2">X</p>
+    <p id="p3">X</p>
+    <button id="diceButton" onclick="rollDice()">Roll Dice</button>
+    <script>
+        function rollDice(){
+            let x,y,z;
+            x=Math.floor(Math.random()*6)+1;
+            y=Math.floor(Math.random()*6)+1;
+            z=Math.floor(Math.random()*6)+1;
+
+            x=document.getElementById("p1").innerHTML=x;
+            y=document.getElementById("p2").innerHTML=y;
+            z=document.getElementById("p3").innerHTML=z;
+        }
+    </script>
+</body>
+</html>

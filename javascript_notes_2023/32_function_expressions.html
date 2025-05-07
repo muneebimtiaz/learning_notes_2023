@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>function expression</title>
+</head>
+<body>
+    <label id="lab">0</label><br>
+    <!-- <button onclick="incFunction()">increase</button>
+    <button onclick="decFunction()">decrease</button> -->
+    <button id="inc">increase</button>
+    <button id="dec">decrease</button>
+    <script>
+        // //normal function 
+        // function sayHello(){
+        //     console.log('hello world!')
+        // }
+        // sayHello()
+        
+        // //function expression
+        // let greet=function(){
+        //     console.log('hello world!')
+        // }
+        // greet()
+
+        // let count=0;
+        // function incFunction(){
+        //     count=count+1;
+        //     document.getElementById("lab").innerHTML=count;
+        // }
+        // function decFunction(){
+        //     count=count-1;
+        //     document.getElementById("lab").innerHTML=count;
+        // }
+
+        let count=0;
+        document.getElementById("inc").onclick=function(){
+            count=count+1;
+            document.getElementById("lab").innerHTML=count;
+        }
+        document.getElementById("dec").onclick=function(){
+            count=count-1;
+            document.getElementById("lab").innerHTML=count;
+        }
+
+    //    An anonymous function is a function without a name and is commonly used when a function is used only once or as an argument to another function.
+    </script> 
+</body>
+</html>

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<head>
+    <title>conditional execution</title>
+
+    <label for="text-1">Enter percentage:</label>
+    <input type="text" id="inputValue-1">
+    <button onclick="determineGrade()">Submit</button>
+    <br><hr>
+    <label for="text-2">Enter fruit:</label>
+    <input type="text" id="inputValue-2">
+    <button onclick="determineFruit()">Submit</button>
+</head>
+<body>
+    <script>
+            // if...else statement
+            let name="Nicholas";
+            console.log("Hello "+name);
+            if(name.length > 7){
+            console.log("Wow, you have a REALLY long name!");
+            }else{
+            console.log("Your name isn't very long.");
+            }
+
+
+            // Chaining multiple if...else statements
+            function determineGrade() {
+            let percentage = Number(document.getElementById("inputValue-1").value);
+
+            if (percentage >= 90) {
+                console.log("Grade A");
+            } else if (percentage >= 80) {
+                console.log("Grade B");
+            } else if (percentage >= 70) {
+                console.log("Grade C");
+            } else if (percentage >= 60) {
+                console.log("Grade D");
+            } else {
+                console.log("Grade F");
+            }
+            };
+
+        
+            // switch statement
+            // the switch statement in JavaScript is primarily designed to compare a single expression against a series of case values, and it doesn't directly handle range comparisons.
+            function determineFruit(){
+                let fruit=String(document.getElementById("inputValue-2").value)
+                fruit=fruit.toUpperCase(); //assign the uppercase value back to the 'fruit' variable
+
+                switch (fruit){
+                case "APPLE":
+                case "BANANA":
+                case "CHERRY":
+                    console.log("You enter one of my favorite fruits😊!");
+                    break;
+                default:
+                    console.log("It's something else.I didn't like this fruit😒");
+                }
+            };
+
+
+            // ternary operator
+            // condition ? exprIfTrue : expreIfFalse
+            let age=21;
+            function check(age){
+                return age>=18 ? "you can drink":"you cant drink";
+            }
+            console.log(check());
+
+
+
+            
+            // let x;
+            // x=window.prompt("enter a integer:")
+            // if((x)%2==1){
+            //     console.log("number is odd")
+            // }else{
+            //     console.log("number is even")
+            // }
+
+    </script>
+</body>
+</html>

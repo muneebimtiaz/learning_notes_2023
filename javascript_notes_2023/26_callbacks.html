@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>call backs</title>
+</head>
+<body>
+    <p id="para">callbacks</p>
+    <script>
+        // example 1
+        greet("Muneeb", sayGoodbye);
+
+        function greet(name, callback){
+            console.log(`Hi, ${name}`);
+            callback();
+        }
+        function sayGoodbye(){
+            console.log("Goodbye!");
+        }
+
+        //example 2
+        sum(3,3,dispConsole);
+
+        function sum(a,b,disp){
+            let c=a+b;
+            disp(c);
+        }
+        function dispDom(ans){
+            document.getElementById("para").innerHTML=ans;
+        }
+        function dispConsole(ans){
+            console.log(ans)
+        }
+
+        //example 3
+        sqrPower(3,dispDom)
+
+        function sqrPower(element,disp){
+            let sqr=Math.pow(element,2);
+            disp(sqr);
+        }
+        function dispDom(ans){
+            document.getElementById("para").innerHTML=ans;
+        }
+        function dispConsole(ans){
+            console.log(ans)
+        }
+
+
+
+       
+
+    </script>
+</body>
+</html>

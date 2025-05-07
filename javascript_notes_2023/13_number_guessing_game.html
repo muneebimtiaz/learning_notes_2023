@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<head>
+    <title>Number Guess</title>
+</head>
+<body>
+    <h2>Number Guess Game</h2>
+    <p>Pick a number  between 1-10</p>
+    <label for="textBox">Enter the Guess:</label>
+    <input type="text" id="textBox">
+    <button onclick="guess()">Submit</button>
+    <script>
+        function guess(){
+            let num;
+            num=document.getElementById("textBox").value
+                if(num==="6"){
+                    console.log("Congradulations🎉🎊 You guess correctly")
+                }else if(num>6){
+                    console.log("You guess a bigger number")
+                }else if(num<6){
+                    console.log("You guess a smaller number")
+                }
+            }
+    </script>
+</body>
+</html>

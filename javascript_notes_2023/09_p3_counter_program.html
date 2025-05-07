@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<head>
+    <title>Document</title>
+</head>
+<body>
+    <label id="lbl">0</label>
+    <button id="btn1" onclick="dec()">decrease</button>
+    <button id="btn2" onclick="res()">reset</button>
+    <button id="btn3" onclick="inc()">increase</button>
+    <script>
+        let count=0;
+        function dec(){
+            count-=1;
+            document.getElementById("lbl").innerHTML=count; 
+        }
+        function res(){
+            count=0; 
+            document.getElementById("lbl").innerHTML=count; 
+        }
+        function inc(){
+            count+=1; 
+            document.getElementById("lbl").innerHTML=count; 
+        }
+    </script>
+</body>
+</html>

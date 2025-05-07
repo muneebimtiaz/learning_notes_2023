@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<head>
+    <title>checkbox control with javascript</title>
+</head>
+<body>
+    <label for="myCheckBox">Subscribe</label>
+    <input type="checkbox" id="myCheckBox">
+    <br>
+    <label for="radio">Quick Survey:Goat anime?</label>
+    <br>
+    <input type="radio" name="rbtn" id="myRadioButton-1">Attack on Titan
+    <input type="radio" name="rbtn" id="myRadioButton-2">Onepiece
+    <input type="radio" name="rbtn" id="myRadioButton-3">Monster
+    <br>
+    <button id="myButton" onclick="submitButton();radioButton()">submit</button>
+    
+</body>
+    <script>
+        function submitButton(){
+            if(document.getElementById("myCheckBox").checked){
+                console.log("Thank you for Subscribing 😊")
+            }else{
+                console.log("Please subscribe out channel🙏")
+            };
+        }
+
+        function radioButton(){
+            if(document.getElementById("myRadioButton-1").checked){
+                console.log("55% people pick AOT as🐐")
+            }else if(document.getElementById("myRadioButton-2").checked){
+                console.log("35% people pick OP as 🐐")
+            }else if(document.getElementById("myRadioButton-3").checked){
+                console.log("5% people pick Monster as🐐")
+            }else{
+                console.log("sorry naruto fans")
+            }
+        }
+    </script>
+</html>

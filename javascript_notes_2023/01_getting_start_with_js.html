@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<head>
+    <title>getting start with js</title>
+</head>
+<body>
+    <p>Adults Plain Cotton T-shirt</p>
+    <p>Price:$7.99</p>
+    <input type="button" value="Add to cart" onclick="alert('Added')">
+    <input type="button" value="Buy now" onclick="alert('Loading')">
+
+    <script>
+        console.log("I love Animals");
+        console.log("I love Cats");
+        // window.alert("this is a warning box");     
+
+// this is a  single line comment box javascript
+
+/* 
+this is a multiple line
+comment for javascript
+*/
+        // string properities and methods
+        let userName="muneeb imtiaz";
+        let phoneNumber="123-456-7890";
+        console.log(userName.length); 
+        console.log(userName.charAt(0)); 
+        console.log(userName.indexOf("i")); 
+        console.log(userName.lastIndexOf("i")); 
+        console.log(userName.substring("i")); 
+        console.log(userName.toUpperCase());
+        console.log(userName.toLowerCase());
+        console.log(phoneNumber.replaceAll("-","$"));
+
+        //method chaining
+        console.log(userName.charAt(2).toUpperCase());
+
+        // slicing a string
+        let fullName="muneeb imtiaz"
+        let fname;
+        let lname;
+        fname=fullName.slice(0,fullName.indexOf(" "));
+        lname=fullName.slice(fullName.indexOf(" ")+1);
+
+        console.log(fname)
+        console.log(lname)
+    </script>
+</body>
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<head>
+    <title>p1 right angle triangle</title>
+</head>
+<body>
+    <p>Finding Hyp of Right Angle triangle</p>
+    <label>Side A:</label>
+    <input type="text" id="a-side" placeholder="Enter value"><br>
+    <label>Side B:</label>
+    <input type="text" id="b-side" placeholder="Enter value"><br>
+    <button onclick="submit()">submit</button>
+    <p id="para"></p>
+    <script>
+        let c,a,b;
+        
+        function submit(){
+            a=Number(document.getElementById("a-side").value);
+            b=Number(document.getElementById("b-side").value);
+            c=Math.sqrt(Math.pow(a,2)+Math.pow(b,2));
+            document.getElementById("para").innerHTML="Side C:"+c;
+            console.log(c);
+        }
+    </script>
+</body>
+</html>
