@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms</title>
+</head>
+<body>
+    <form action="/new-contact" method="post">
+        <!-- Text Input -->
+        <label for="">Enter Username:</label>
+        <input type="text" name="username" maxlength="30" placeholder="johndoe" required><br />
+
+        <!-- Email Input -->
+        <label for="">Enter Email</label>
+        <input type="email" name="email of user" placeholder="johndoe@xyz.com" required><br />
+        
+        <!-- Password Input -->
+        <label for="">Enter Password</label>
+        <input type="password" name="password of user" placeholder="Password" required><br />
+        
+        <!-- Number Input-->
+        <label for="">Enter age</label>
+        <input type="number" name="age of user" min="15" max="50" step="2" value="18"><br />
+        <!-- All those fields accept a predefined value. If the user does not change it, this
+        will be the value sent to the server: -->
+        
+        <!-- Button & Hidden Controls -->
+        <button><img src="assets/images/facebook.png" alt="png" width="10" height="10" />Login with facebook</button>
+        <input type="hidden" name="hidden-field" value="lyrics" /><br />
+        <!-- This is commonly used to store values like a CSRF token, used for security
+        and user identification, or even to detect robots sending spam, using special
+        techniques.
+        It can also just be used to identify a form and its action. -->
+        
+        <!-- Button Input -->
+        <input type="button" value="enjoy!!">
+
+        <!-- Submit & Reset Button -->
+        <input type="submit" name="submit-button" value="submit-form">
+        <input type="reset" value="reset-form"><br />
+        
+        <!-- File Input -->
+        <input type="file" name="secret-documents" multiple accept=".png, .jpg, .pdf"><br />
+
+        <!-- Search Input -->
+        <input type="search" placeholder="Enter Keyword"><br />
+
+        <!-- Radio Button -->
+        <label for="">Favorite Color:</label>
+        <input type="radio" name="favorite-color" value="red">Red
+        <input type="radio" name="favorite-color" value="blue">Blue
+        <input type="radio" name="favorite-color" value="purple">Black<br />
+        
+        <!-- Checkbox -->
+        <label for="">Favorite anime series:</label>
+        <input type="checkbox" name="favorite-anime">Attack on titan
+        <input type="checkbox" name="favorite-anime">Death note
+        <input type="checkbox" name="favorite-anime">Tokyo Ghoul<br />
+        
+        <!-- Date & Time Input -->
+        <input type="date" name="date-picked">
+        <input type="month" name="month-picked">
+        <input type="year" name="year-picked">
+        <input type="time" name="time-picked">
+        <input type="datetime-local" name="all in one"><br />
+        
+        <!-- Colorpicker -->
+        <label for="">Pick Color:</label>
+        <input type="color" name="color-picked" value="#999999"><br />
+        
+        <!-- Telephone Input -->
+        <label for="">Enter Phonenumber:</label>
+        <input type="tel" name="tel-number" pattern="[0-9]{3}-[0-9]{8}"><br />
+        
+        <!-- URL Input -->
+        <label for="">Enter URL:</label>
+        <input type="url" name="website" pattern="https://.*" ><br />
+        
+        <!-- Text Area -->
+        <textarea name="text-area" cols="30" rows="10">Tell us about our service</textarea><br />
+        
+        <!-- Drop Down List Box -->
+        <select name="color">
+            <optgroup label="Primary">
+                <option value="red">Red</option>
+                <option value="yellow">Yellow</option>
+                <option value="blue">Blue</option>
+            </optgroup>
+            <optgroup label="Others">
+                <option value="green">Green</option>
+                <option value="pink">Pink</option>
+            </optgroup>
+        </select>
+    </form>
+</body>
+</html>
