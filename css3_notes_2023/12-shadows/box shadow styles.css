@@ -1,0 +1,28 @@
+figure{
+    max-width: 27rem;
+    padding: 1em; margin: 1em auto;
+    border: 1px solid black;
+    border-radius: 1em;
+}
+figcaption{
+    font-style: italic;
+    text-align: center;
+}  
+figure img{
+    box-shadow: 5px 5px 20px 5px black;
+    /* The box-shadow property is for adding shadows to the box of an HTML element. It works on block elements and inline elements. */
+}
+
+.box-item{
+    background-color: royalblue;
+    color: white;
+    width: 100px; height: 100px;
+    padding: 2px; border: 1px solid black; margin: 2px;
+    border-radius: 10px;
+    /* Outer shadow */
+    box-shadow: 5px 5px 20px 5px black;  
+    /* Inner shadow */
+    /* box-shadow: inset 5px 5px 20px 5px black; */
+}
+
+/* If you put a box with a box-shadow inside a container that has 'overflow: hidden', the shadow won't show outside of the container's visible area. */

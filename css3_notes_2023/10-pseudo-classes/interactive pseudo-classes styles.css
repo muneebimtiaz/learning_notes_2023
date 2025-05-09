@@ -1,0 +1,65 @@
+*{
+    margin: 0; padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+.div-1{
+    color: black;
+    font-size: x-large;
+    font-weight: 900;
+    text-decoration: none;
+}
+
+.div-2{
+    color: black;
+    font-size: large;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+/* 
+syntax
+selector:link{
+    set the desired properties
+} 
+*/
+
+/* When setting the style for several link states, there are some order rules:
+a:hover MUST come after a:link and a:visited
+a:active MUST come after a:hover */
+
+/* :link */
+a:link{
+    color: blue
+}
+/* :visited */
+a:visited{
+    color: navy;
+}
+/* :hover */
+a:hover{
+    color: white;
+    background-color: royalblue;
+    text-decoration: none;
+}
+/* :active */
+a:active{
+    color: goldenrod;
+    text-decoration: none;
+}
+/* focus */
+.button {
+    font-size: large;
+    font-weight: 600;
+}
+.button:focus{
+    outline: 2px dashed black;
+    outline-offset: 2px;
+    background-color: royalblue;
+    font-size: x-large;
+    font-weight: 600;
+}
+
+
+ 

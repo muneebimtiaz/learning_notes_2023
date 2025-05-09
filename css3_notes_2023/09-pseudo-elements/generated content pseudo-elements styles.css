@@ -1,0 +1,36 @@
+/* display inline */
+
+/* ::after: This pseudo-element is used to insert content after the content of the selected element. 
+It's also commonly used for decorative elements or additional information after text. */
+.heading-1::after{
+    /* url: css function */
+    content: url(assets/home.png);
+    display: inline;
+}
+
+/* ::before: This pseudo-element is used to insert content before the content of the selected element. 
+It's often used for decorative elements or icons before text. */
+.heading-1::before{
+    content: url(assets/home.png);
+    display: inline;
+}
+
+/* display block */
+
+.heading-2::after{
+    content: "";
+    background-color: royalblue;
+    width: 10px; height: 10px;
+    padding: 1px; border: 1px solid black; margin: 1px;
+    display: block;
+}
+.heading-2::before{
+    content: "";
+    background-color: royalblue;
+    width: 10px; height: 10px;
+    padding: 1px; border: 1px solid black; margin: 1px;
+    display: block;
+}
+
+/* You can use pseudo-elements like ::before and ::after to style the content of an element. 
+However, you select the element itself based on its class (or other selectors) and then apply the pseudo-element styles to that selected element. */

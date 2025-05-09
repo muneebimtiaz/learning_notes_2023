@@ -1,0 +1,16 @@
+.parent{
+    color: royalblue;
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+}
+  
+.Inherited-Child{
+    color: unset; /* Inherits color from the parent or resets to default if not set */
+    font-family: unset;
+}
+  
+.Not-Inherited-Child{
+    color: unset; /* Inherits color from the parent or resets to default if not set */
+    font-family: unset;
+}
+
+  

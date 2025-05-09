@@ -1,0 +1,16 @@
+
+.parent{
+    color: royalblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.Inherited-Child{
+    color: initial;
+}
+
+.Not-Inherited-Child{
+    color: initial;
+}
+
+/* The initial keyword is used to reset a CSS property to its default or initial value. 
+It ensures that an element's property value is set to what it would be by default, ignoring any previous inheritance or styling. */

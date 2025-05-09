@@ -1,0 +1,13 @@
+The property is called “z-index” because it sets the order of elements along the z-axis. If the x-axis goes left-to-right and the y-axis goes top-to-bottom, the z-axis adds the dimension of “toward” and “away from” the user. Elements with a higher z-index value appear closer to the user, and elements with a lower value look farther away.
+Property values:
+
+auto: The stack order is equal to that of the parent(default).
+number: The stack order depends in the number.
+initial: Sets the property to its default value.
+inherit: Inherits the property from the parent element.
+
+
+stacking context:
+A z-index value positions an element on the z-axis relative to other elements in the
+same stacking context. A stacking context is a group of elements that share 
+the same parent element and whose z-index values are compared with each other.

@@ -1,0 +1,14 @@
+.text-item{
+    font-size: 3em;
+    font-weight: 900;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-transform: uppercase;
+    /* text-shadow */
+    /* text-shadow: 3px 3px 3px royalblue;
+    color: royalblue; */
+
+    /* multiple-shadow */
+    text-shadow: 1px 1px 0px white,
+    2px 2px 0px darkblue;
+    color: royalblue;
+}

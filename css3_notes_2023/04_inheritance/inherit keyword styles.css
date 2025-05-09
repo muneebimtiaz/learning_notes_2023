@@ -1,0 +1,21 @@
+
+.parent{
+    color: royalblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.Inherited-Child{
+    color: inherit;
+    font-family: inherit;
+} 
+/* 
+The inherit keyword is used to explicitly inherit the value of a CSS property from the parent element. 
+It forces an element to adopt the same value as its parent element for the specified property. 
+This can be useful when you want child elements to inherit specific styles from their parent. */
+
+.Not-Inherited-Child{
+    color: initial;
+    font-family: initial;
+}
+/* The initial keyword is used to reset a CSS property to its default or initial value. 
+It ensures that an element's property value is set to what it would be by default, ignoring any previous inheritance or styling. */

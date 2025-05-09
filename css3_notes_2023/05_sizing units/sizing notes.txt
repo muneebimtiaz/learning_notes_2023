@@ -1,0 +1,42 @@
+
+Absolute Length Units
+Here are some common absolute length units in CSS:
+
+1-px
+Pixels
+In CSS, 1 pixel is formally defined as 1/96 of an inch.
+2-cm
+Centimeters.
+In CSS, 1cm is roughly 37.8 pixels, or about 25.2/64 of an inch.
+3-mm
+Millimeters.
+In CSS, 1mm is roughly 3.78 pixels, or 1/10th of a centimeter.
+4-in
+Inches.
+In CSS, 1in is roughly 96 pixels, or about 2.54cm.
+5-pt
+Points.
+In CSS, 1pt is roughly 1.3333 pixels, or 1/72th of an inch.
+6-pc
+Picas.
+In CSS, 1pc is roughly 16 pixels, or 1/6 of an inch.
+
+difference b/w px and %:
+Pixels (px): Pixels are a fixed unit of measurement. They refer to the actual physical dots on your screen. When you use pixels to set the size of an element, it will always be that exact size, regardless of the screen size or resolution. So, if you set an element to be 100px wide, it will always be 100 pixels wide, no matter if it's on a small phone screen or a large desktop monitor.
+Percentages (%): Percentages are a relative unit of measurement. They are based on the size of the parent element. When you use percentages to set the size of an element, the size will be a portion of its parent element's size. For example, if you set an element's width to 50%, it will be half the width of its parent element. This makes percentages useful for creating responsive designs that adapt to different screen sizes.
+In summary, pixels are fixed and absolute measurements, while percentages are relative measurements based on the size of the parent element.
+
+difference b/w vw and vh:
+Viewport Width (vw):1vw is equal to 1% of the viewport's width.
+It is used to define lengths or sizes relative to the width of the viewport.
+For example, if the viewport's width is 1000 pixels, 1vw would be 10 pixels (1% of 1000).
+Viewport Height (vh):1vh is equal to 1% of the viewport's height.
+It is used to define lengths or sizes relative to the height of the viewport.
+For example, if the viewport's height is 800 pixels, 1vh would be 8 pixels (1% of 800).
+
+difference b/w rem and em:
+The rem unit: stands for "root em" or "root relative em."
+It is a relative unit of measurement that is based on the font size of the root element (usually the <html> element).
+This means that when you use rem, the value will be calculated based on the font size of the root element, and it will remain consistent throughout the document regardless of where it is used.
+The em unit: is a relative unit of measurement that is based on the font size of the parent element.
+When you use em, the value will be calculated based on the font size of the immediate parent element

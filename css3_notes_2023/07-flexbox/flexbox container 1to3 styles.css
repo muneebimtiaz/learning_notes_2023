@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box-items{
+    background-color: royalblue;
+    color: white;
+    width: 100px; height: 100px;
+    padding: 2px; border: 1px solid black; margin: 2px;
+}
+.main-container{
+    width: 40vw; height: 40vh;
+    border: 2px dashed black;
+    display: flex;  /* display flex */
+    /* by default main-axis is horizontal */
+
+    /* To make it run vertically, you can use 'flex-direction: column; */
+    /* flex-direction: column; */
+    /* This makes the vertical line the main one, and the horizontal line becomes the cross line. */
+
+    /* align item on main-axis */
+    justify-content: space-evenly;  
+    /* by default main-axis is horizontal */
+
+    /* align item on cross-axis */
+    align-items: end;  /* by default align-items:stretch; */
+    /* If you want to align items vertically, just remember that the main line becomes vertical and the cross line becomes horizontal*/   
+}

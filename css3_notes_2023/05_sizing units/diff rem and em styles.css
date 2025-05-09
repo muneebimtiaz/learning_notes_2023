@@ -1,0 +1,22 @@
+
+.one-rem{
+    font-size: 1rem;
+}
+.one-em{
+    font-size: 1em;
+}
+.two-rem{
+    font-size: 2rem;
+}
+.two-em{
+    font-size: 2em;
+}
+.parent{
+    width: 150px;
+    font-size: 32px;
+    border: 2px solid black;
+}
+
+/* difference between rem and em
+The rem unit stands for "root em" or "root relative em." It is a relative unit of measurement that is based on the font size of the root element (usually the <html> element). This means that when you use rem, the value will be calculated based on the font size of the root element, and it will remain consistent throughout the document regardless of where it is used.
+The em unit is a relative unit of measurement that is based on the font size of the parent element. When you use em, the value will be calculated based on the font size of the immediate parent element.*/

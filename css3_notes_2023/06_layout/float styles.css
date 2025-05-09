@@ -1,0 +1,20 @@
+img{
+    width: 100px;
+    float: left;
+    /* The float property instructs an element to "float" to the direction specified.  */
+    margin-right: 1em;
+}
+p{
+    clear: left;
+    /* "If you use the 'float' property, remember that elements coming after the floated one might get their layout messed up. To avoid this, you can 'clear' the float by using 'clear: both' on a later element, or you can use 'display: flow-root' on the parent containing the floated elements." */
+}
+.box{
+    background-color: royalblue;
+    color: white;
+    width: 100px; height: 100px;
+    padding: 2px; border: 1px solid black; margin: 2px;
+    float: left;
+}
+
+/* Block Elements (like paragraphs, headings, and divs): Other block elements after the floated element will try to fit beside it instead of below it. They kind of wrap around it.
+Inline Elements (like links, spans, and strong text): Inline elements will ignore the floated element and keep flowing in a straight line, not wrapping around the floated element. */

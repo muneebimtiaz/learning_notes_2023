@@ -1,0 +1,29 @@
+/* id selector */
+#id-selector{
+    color: red;
+}
+/* class selector */
+.class-selector{
+    color: blue;
+}
+/* element selector */
+div{
+    color: green;
+}
+/* attribute selector */
+[data-type]{
+    color: orange;
+}
+/* universial selector */
+*{
+    background-color: rgb(234, 234, 234); font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-size: 18px;
+}
+/* grouping multiple selectors */
+p, .class-selector{
+    /* Text and typography */
+    text-decoration: underline;
+    text-decoration-color: royalblue;
+    text-decoration-thickness: 2px;
+    /* shortend */
+    /* text-decoration: underline 2px royalblue wavy; */
+}

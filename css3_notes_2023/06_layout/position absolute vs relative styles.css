@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.parent{
+    margin: 150px;
+    width: 40vw; height: 40vh;
+    border: 2px dashed black;
+    position: relative;
+}
+.box-items{
+    background-color: royalblue;
+    color: white;
+    width: 100px; height: 100px;
+    padding: 2px; border: 1px solid black; margin: 2px;
+}
+.box-1{
+    position: relative;    /* by default position:static; */
+    left: 50px;
+}
+.box-2{
+    position: absolute;
+    top: 50px;
+}
+/* 
+"Using 'position: relative' lets you move an element from its original position,
+while 'position: absolute' moves an element in relation to its parent.
+If 'position: relative' isn't specified, the element moves relative to the body's position."
+*/

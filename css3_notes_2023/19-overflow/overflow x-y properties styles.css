@@ -1,0 +1,19 @@
+.random{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 2px solid royalblue;
+    width: 300px;height: 200px;
+    margin-top: 20px;
+    box-sizing: border-box;
+    /* Overflow-x
+    overflow-x: scroll;
+    overflow-y: hidden; */
+
+    /* Overflow-y */
+    overflow-x: hidden;
+    overflow-y: scroll;
+
+    /* Overflow Shorthand */
+    /* overflow: hidden scroll; */
+    
+}
+

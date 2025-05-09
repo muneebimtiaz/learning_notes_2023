@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box-items{
+    background-color: royalblue;
+    color: white;
+    width: 100px; height: 100px;
+    padding: 2px; border: 1px solid black; margin: 2px;
+}
+.main-container{
+    width: 40vw; height: 40vh;
+    border: 2px dashed black;
+    display: flex;
+    justify-content: space-between;
+    align-items: top; 
+
+    /* by default all items try to fit into a single row or column in a container. If you add more items than can fit, they start squishing together  */
+    flex-wrap: wrap;
+    /* When there's not enough space for all the items in one line, they will start moving to the next line to make sure everything fits. This is called wrapping */
+
+    align-content: flex-start;  /* The 'align-content' property only has an effect when you use 'flex-wrap: wrap;' to make items wrap onto multiple lines. It helps you control the alignment of those lines. */
+    /* allows to align items cross-axis */
+    gap: 1em;  /* gap use to add gap b/w each items */
+
+    /* The flex-flow property is a shorthand property for setting both the flex-direction and flex-wrap properties. */
+}

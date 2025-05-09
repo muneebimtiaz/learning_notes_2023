@@ -1,0 +1,15 @@
+*{
+    margin: 0; padding: 0;
+}
+
+button{
+    margin: 10px; padding: 10px; background-color: royalblue;
+    border-radius: 5px;
+}
+
+.main-container{
+    background-image: url(assets/eren%20yeager.jpg);
+    background-size: 20%;
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+}

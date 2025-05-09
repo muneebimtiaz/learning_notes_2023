@@ -1,0 +1,25 @@
+*{
+    margin: 0; padding: 0;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.main-container{
+    width: 50vw; height: 50vh;
+    text-align: center;  
+}
+p{
+    font-size: large;
+    font-weight: 300;
+}
+
+/* first-letter */
+p::first-letter{
+    color: crimson;
+    font-size: xx-large;
+    font-weight: bold;
+}
+  
+/* first-line */
+p::first-line{
+    color: royalblue;
+    text-decoration: underline;
+}

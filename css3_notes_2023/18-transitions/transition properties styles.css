@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.box-item{
+    background-color: royalblue;
+    color: white;
+    text-align: center;
+    line-height: 90px;
+    width: 100px; height: 100px;
+    padding: 2px; border: 1px solid black; margin: 2px;
+    cursor: pointer;
+
+    /* The transition-property property specifies which style(s) to transition. */
+    transition-property: all;
+
+    /* The transition-duration property lets you choose how long a transition lasts, and you can specify the time in seconds or milliseconds */
+    transition-duration: 2s;
+
+    /* The transition-timing-function property controls how fast or slow a transition happens during its duration. The default is "ease," which means it starts slow, speeds up, and then slows down at the end */
+    transition-timing-function: linear;  
+
+    /* The transition-delay property lets you control when a transition begins. By default, it starts immediately when triggered (like when you hover your mouse over an element). */
+    transition-delay: 0.5s;
+    /* shorthand */
+    /* transition combines transition-property, transition-duration, transition-timing-function, and transition-delay. */
+    /* transition: all,2s,linear,0.5s; */
+}
+.box-item:hover{
+    background: crimson;
+    border-radius: 50%;
+}

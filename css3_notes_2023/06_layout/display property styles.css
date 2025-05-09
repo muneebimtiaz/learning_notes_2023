@@ -1,0 +1,24 @@
+*{
+    margin: 0;padding: 0;
+}
+.a{
+    background-color: lightblue;
+    margin: 4px;padding: 4px;
+    height: 100px;width: 100px;
+    display: inline;
+    /* Inline elements behave like words in a sentence. They sit next to each other in the inline direction */
+}
+.b{
+    background-color: royalblue;
+    margin: 4px;padding: 4px;
+    height: 100px;width: 100px;
+    display: inline-block;
+    /* Using inline-block gives you a box that has some of the characteristics of a block-level element, but still flows inline with the text. */
+}
+.c{
+    background-color: darkblue;
+    margin: 4px;padding: 4px;
+    height: 100px;width: 100px;
+    display: block;
+    /* Block elements don't sit alongside each other. They create a new line for themselves. */
+}

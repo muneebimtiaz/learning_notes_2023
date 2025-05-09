@@ -1,0 +1,15 @@
+figure{
+    max-width: 27rem;
+    padding: 1em; margin: 1em auto;
+    border: 1px solid black;
+    border-radius: 1em;
+}
+figcaption{
+    font-style: italic;
+    text-align: center;
+}  
+figure img{
+    /* box-shadow: 5px 5px 20px 5px black; */
+    filter: drop-shadow(0px 0px 10px royalblue) drop-shadow(10px 10px 20px rgba(0 0 0 / 30%))
+}
+/* Remember to ensure that the element you are applying these effects to has a transparent background or is placed on top of a suitable background, so that the drop shadow is visible and doesn't overlap with other content in an unintended way. */

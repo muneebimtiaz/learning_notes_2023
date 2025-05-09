@@ -1,0 +1,52 @@
+ Some of the most commonly used pseudo-classes are:
+
+Pseudo-class	Description
+:hover		Used when a user hovers over an element with the mouse pointer.
+:active		Used to style an element when it is clicked.
+:focus		Used to highlight elements when they are selected or focused on by the user.
+:visited	Used to style elements that have been previously visited.
+:first-child	Used to style an element that is the first child of its parent element.
+:last-child	Used to style an element that is the last child of its parent element.
+:not		Used to target elements that do not match a given selector.
+:enabled	Used to style an element when it is enabled.
+:disabled	Used to style an element when it is disabled.
+
+
+categorized list of some common pseudo-classes:
+Interactive/anchor Pseudo-classes:
+:hover - Selects an element when the mouse pointer is over it.
+:active - Selects an element when it's being activated or clicked.
+:focus - Selects an element when it has keyboard focus.
+:focus-within - Selects an element when it or any of its descendants has keyboard focus.
+:visited - Selects links that have been visited by the user.
+:link - Selects unvisited links.
+
+Form-related Pseudo-classes:
+:checked - Selects radio buttons or checkboxes that are checked.
+:disabled - Selects elements that are disabled.
+:enabled - Selects elements that are enabled.
+:required - Selects form elements that are required.
+:optional - Selects form elements that are optional.
+:valid - Selects form elements with valid input.
+:invalid - Selects form elements with invalid input.
+
+Child and Sibling Pseudo-classes:
+:first-child - Selects the first child of a parent element.
+:last-child - Selects the last child of a parent element.
+:only-child - Selects elements that are the only child of their parent.
+:first-of-type - Selects the first element of its type within a parent.
+:last-of-type - Selects the last element of its type within a parent.
+:nth-child() - Selects elements based on their position within a parent.
+:nth-of-type() - Selects elements of a specific type based on their position within a parent.
+:nth-last-child() - Selects elements based on their position within a parent, counting from the end.
+:nth-last-of-type() - Selects elements of a specific type based on their position within a parent, counting from the end.
+
+UI State Pseudo-classes:
+:target - Selects the target element of an anchor link.
+:root - Selects the highest-level parent element in the document.
+:empty - Selects elements with no children or text content.
+
+Content and Link Pseudo-classes:
+:before - Selects content inserted before an element using the content property.
+:after - Selects content inserted after an element using the content property.
+:lang() - Selects elements based on their language attribute.

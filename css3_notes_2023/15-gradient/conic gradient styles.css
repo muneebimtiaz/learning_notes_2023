@@ -1,0 +1,31 @@
+.box-items{
+    font-family: 'Roboto Condensed', sans-serif;
+    color: white;
+    background-color: royalblue;
+    width: 100px; height: 100px;
+    padding: 2px; border: 2px solid black; margin: 2px;
+}
+
+.box-1{
+	background: conic-gradient(white, crimson);
+}
+
+.box-2{
+	background: conic-gradient(from 10deg at 20% 30%, white, crimson);
+}
+/* 
+from 10deg indicates that the gradient starts from an angle of 10 degrees.
+at 20% 30% defines the center position of the gradient. It's set at 20% from the left edge and 30% from the top edge of the element.
+white is the color at the starting point of the gradient.
+royalblue is the color at the ending point of the gradient. */
+
+
+.box-3{
+	background: conic-gradient(gold 20deg, lightcoral 20deg 190deg, mediumturquoise 190deg 220deg, plum 220deg 320deg, steelblue 320deg);
+}
+/* 
+The gradient starts with the color 'gold' at 0 degrees and goes to 20 degrees.
+Then, it transitions from 'lightcoral' at 20 degrees to '190 degrees'.
+Next, it transitions from 'mediumturquoise' at 190 degrees to '220 degrees'.
+After that, it transitions from 'plum' at 220 degrees to '320 degrees'.
+Finally, it transitions from 'steelblue' at 320 degrees, completing the circle. */

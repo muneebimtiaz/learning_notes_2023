@@ -1,0 +1,14 @@
+/* ::marker pseudo element */
+ol li::marker{
+    content: url(assets/paper-plane.png);
+}
+  
+ul li::marker{    
+    content: "🔥";
+}
+
+/* ::selection pseudo element */
+p::selection {
+    color: royalblue;
+    background: yellow;
+  }

@@ -1,0 +1,23 @@
+.box-50per{
+    width: 50%;
+    background-color:royalblue;
+    margin: 2px;
+
+}
+.box-100px{
+    width: 100px;
+    background-color:royalblue;
+    margin: 2px; 
+}
+.parent{
+    width: 150px;
+    border: 2px solid black;
+}
+
+/*
+difference b/w px and %:
+Pixels (px): Pixels are a fixed unit of measurement. They refer to the actual physical dots on your screen. When you use pixels to set the size of an element, it will always be that exact size, regardless of the screen size or resolution. So, if you set an element to be 100px wide, it will always be 100 pixels wide, no matter if it's on a small phone screen or a large desktop monitor.
+
+Percentages (%): Percentages are a relative unit of measurement. They are based on the size of the parent element. When you use percentages to set the size of an element, the size will be a portion of its parent element's size. For example, if you set an element's width to 50%, it will be half the width of its parent element. This makes percentages useful for creating responsive designs that adapt to different screen sizes.
+In summary, pixels are fixed and absolute measurements, while percentages are relative measurements based on the size of the parent element. 
+*/

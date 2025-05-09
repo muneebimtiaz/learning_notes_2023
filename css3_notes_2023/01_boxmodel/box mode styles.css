@@ -1,0 +1,21 @@
+*{
+    margin: 0; padding: 0; font-size: 20px;  /* universial (select all elements on the HTML page)*/
+}
+
+.box-1{
+    background-color: red;
+    height: 50px; width: 50px;  /* content box size */
+    padding: 10px; border: 10px solid black; margin: 10px; 
+}
+/* In boxmodel, margin collaspe (combine) between elements next to each other.for example box-1 has margin 10px and box-2 has margin 20px.then the margin between the two elements is 20px(highest value) */
+/* in above height of content is 50px but height of element is 70px. by default in box model we get the height of the element as height+padding+border (eg:70px in above) */
+/* To change the height and width (eg 50px,50px) to actual height and width of the element instead of combine(eg 70px) we use box-sizing: border-box property  */
+/* Most of cases box-sizing: border-box is actually added to universal selector so every element uses border-box property it makes so much easier that whereever we write height and weight is the actual height and width don't need to worry about doing math in our head */
+
+
+.box-2{
+    background-color: blue;
+    height: 50px; width: 50px;  /* content box size */
+    padding: 10px; border: 10px solid black; margin: 10px;
+    box-sizing: border-box;
+}

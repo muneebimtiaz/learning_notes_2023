@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.parent{
+    background-color: lightblue;
+    margin: 150px;
+    width: 80vw; height: 300pc;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+}
+.box-items{
+    background-color: royalblue;
+    color: white;
+    width: 200px; height: 100px;
+    text-align: center;
+    padding: 2px; border: 1px solid black; margin: 2px;
+}
+.box-1{
+    /* "An element with 'position: fixed' acts somewhat like 'position: absolute', but its parent becomes the root <html> element. Fixed position elements stay locked in place based on the values you set for top, right, bottom, and left. */
+    position: fixed;
+    /* top: 10px; */
+    
+}
+.box-2{
+    /* If you want something to stay in place like 'fixed', but also follow the normal flow like 'relative', you can use 'position: sticky'. With this, the element stays where you put it, but when you scroll past it, it sticks to the positions you set for top, right, bottom, and left */
+    position: sticky;
+    /* top: 10px; */
+}
+
+/* 
+Fixed Position (position: fixed): Think of it like sticking a note on your screen. The note stays in one spot even when you scroll. You can choose where that spot is by setting how far it is from the top, right, bottom, and left edges.
+Sticky Position (position: sticky): Imagine a sticky note that you put on a page. As you scroll, the note sticks to the page and moves along with you until it reaches a certain point. You decide where that point is by setting how far it is from the top, right, bottom, and left edges.
+ */

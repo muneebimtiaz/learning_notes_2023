@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box-items{
+    background-color: royalblue;
+    color: white;
+    width: 100px; height: 100px;
+    padding: 2px; border: 1px solid black; margin: 2px;
+}
+.main-container{
+    background-color: white;
+    width: 30vw; height: 30vh;
+    border: 2px dashed black;
+    display: flex;
+    /* justify-content: space-between;
+    align-items: top; 
+    flex-wrap: wrap;
+    align-content: flex-start;
+    gap: 1em; */
+}
+.item-1{
+    flex-grow: 1;
+    /* Flex-grow uses a number without units to decide how much an item should grow compared to others, helping it take up leftover space in a container. */
+}
+.item-2{
+    flex-shrink: 5;
+    /* Flex-grow decides how quickly an item shrinks compared to others. A flex value of 0 means the item won't shrink, while a flex value of 5 means it shrinks faster than items with lower values */
+}
+.item-3{
+    background-color: red;
+    flex-basis: 34;
+    /*  */
+
+    flex: 1;
+    /* shorthand of flex-grow,flex-shrink,flex-basis  */
+    /* second and third parameters are optional  */
+    align-self: center;
+    /* overwrite value set in the align-item on the main-container for this individul item  */
+    /* order: -1;  */
+}
+

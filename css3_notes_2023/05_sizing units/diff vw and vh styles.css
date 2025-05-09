@@ -1,0 +1,31 @@
+.box-50per{
+    width: 50%;
+    background-color:royalblue;
+    margin: 2px;
+
+}
+.box-50vw{
+    width: 50vw;
+    background-color:royalblue;
+    margin: 2px; 
+}
+.box-25vh{
+    height: 25vh;
+    background-color:royalblue;
+    margin: 2px; 
+}
+.parent{
+    width: 150px;
+    border: 2px solid black;
+}
+
+/* 
+difference b/w vw and vh:
+Viewport Width (vw):1vw is equal to 1% of the viewport's width.
+It is used to define lengths or sizes relative to the width of the viewport.
+For example, if the viewport's width is 1000 pixels, 1vw would be 10 pixels (1% of 1000).
+
+Viewport Height (vh):1vh is equal to 1% of the viewport's height.
+It is used to define lengths or sizes relative to the height of the viewport.
+For example, if the viewport's height is 800 pixels, 1vh would be 8 pixels (1% of 800).
+ */

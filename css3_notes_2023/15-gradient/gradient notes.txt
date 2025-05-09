@@ -1,0 +1,10 @@
+
+"The way the gradient is positioned is similar to how you set the position of a background 
+using keywords or numbers. The size of the radial gradient determines the ending shape
+(circle or ellipse), and by default, it reaches the farthest corner of the element from the
+center. You can also use these keywords:
+
+'closest-corner' makes the gradient reach the nearest corner to its center.
+'closest-side' makes the gradient reach the side of the element nearest to its center.
+'farthest-side' does the opposite of 'closest-side'.
+You can also have multiple color changes in the gradient, just like with linear gradients. And, you can use as many radial gradients as you want."

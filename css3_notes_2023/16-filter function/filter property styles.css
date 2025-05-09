@@ -1,0 +1,45 @@
+.main-container{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: large;
+    text-transform: capitalize;
+    text-decoration: underline;
+ 
+}
+.box-items{
+    background-color: royalblue;
+    width: 150px; height: 150px;
+    padding: 2px; border: 2px solid black; margin: 2px;
+    background: repeating-linear-gradient(45deg,royalblue,royalblue 30px,white 30px,white 60px);
+
+}
+/* filer: css function */
+.box-1{
+    filter: blur(0.2em);
+}
+.box-2{
+    filter: brightness(60%);
+}
+.box-3{
+    filter: contrast(60%);
+}
+.box-4{
+    filter: grayscale(60%);
+}
+.box-5{
+    filter: invert(1);
+}
+.box-6{
+    filter: opacity(0.3);
+}
+.box-7{
+    filter: saturate(155%);
+}
+.box-8{
+    filter: sepia(70%);
+}
+.box-9{
+    filter: hue-rotate(120deg);
+}
+.box-10{
+    filter: drop-shadow(5px 5px 5px blue);
+}

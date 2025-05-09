@@ -1,0 +1,28 @@
+*{
+    /* margin: 0; */
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.box-item{
+    background-color: royalblue;
+    color: white;
+    text-align: center;
+    line-height: 90px;
+    width: 100px; height: 100px;
+    padding: 2px; border: 1px solid black; margin: 2px;
+    cursor: pointer;
+    /* shorthand */
+    transition: all,2s,linear,0.5s;
+
+}
+.box-item:hover{
+    background: crimson;
+    /* transform: translateX(40px); */
+    /* transform: translateY(20px); */
+    /* transform: translateY(100%); */
+
+    /* shorthand */
+    /* the first value is for the horizontal axis,the second value is for the vertical axis */
+    transform: translate(20px, -10%);
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>combinator selectors</title>
+    <link rel="stylesheet" href="combinator selectors styles.css" type="">
+</head>
+<body>
+    <!-- descendant combinator (space) -->
+    <div>
+        <ul>
+            <li>Gather your favorite fruits and a liquid base (e.g., milk, yogurt).</li>
+            <li> Blend the ingredients until smooth and creamy.</li>
+            <li>Pour into a glass, add garnishes if desired, and enjoy!</li>
+        </ul>
+    </div>
+    <!-- child combinator (>) -->
+    <div>
+        <p>Mars is the fourth planet and the furthest terrestrial planet from the Sun.</p>
+        <p>Mars's radius is second smallest among the planets in the Solar System at 3,389.5 km.</p>
+        <article>
+            <p>The reddish color of its surface is due to finely grained iron(III) oxide dust in the soil, giving it the nickname "the Red Planet"</p>
+        </article>
+    </div>
+    <!-- adjacent/next sibling combinator (+) -->
+    <h3>Heading</h3>
+    <p>Paragraph 1</p>
+    <p>Paragraph 2</p>
+    <p>Paragraph 3</p>
+    <h3>Heading</h3>
+    <p>Paragraph 1</p>
+    <p>Paragraph 2</p>
+    
+    <div>
+        <b>
+            <u>html</u>
+            <u class="tan">css</u>
+            <u>frameworks</u>
+            <u>javascript</u>
+        </b>    
+    </div>
+    <!-- general sibling combinator (~) -->
+    <div>
+        <b>
+            <u>html</u>
+            <u class="cornflowerblue">css</u>
+            <u>frameworks</u>
+            <u>javascript</u>
+        </b>    
+    </div>
+</body>
+</html>

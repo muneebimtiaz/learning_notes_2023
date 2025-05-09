@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>diff rem and em</title>
+    <link rel="stylesheet" href="diff rem and em styles.css">
+</head>
+<body>
+    <!-- diff between rem and em -->
+    <!-- rem is always relative to the root font size, ensuring consistent sizing across the entire page.while em is relative to the font size of the immediate parent element, which can lead to compounding effects in nested elements -->
+    <div class="one-rem">1 rem</div>
+    <div class="one-em">1 em</div>
+    <div class="two-rem">2 rem</div>
+    <div class="two-em">2 em</div>
+    <hr>
+    <div class="parent">
+        <div class="one-rem">1 rem</div>
+        <div class="one-em">1 em</div>
+        <div class="two-rem">2 rem</div>
+        <div class="two-em">2 em</div>
+    </div>
+</body>
+</html>

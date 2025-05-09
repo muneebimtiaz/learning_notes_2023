@@ -1,0 +1,33 @@
+
+.p1{
+    width: 150px;
+    /* height: 150px; Remove or increase the height */
+
+    /* Text and typography */
+    /* specify the height of each line in an element */
+    
+    line-height: 2;
+    border-color: royalblue;
+    border: 2px;
+    border-width: thick;
+}
+.p2{
+    width: 150px;
+    /* height: 150px;  Remove or increase the height */
+
+    /* Text and typography */
+    letter-spacing: 2;
+
+    background-color: orange;
+    /* border shorhand */
+    border: 2px solid royalblue;
+    border-radius: 4px;  
+}
+/*
+border-top-width
+border-right-width
+border-bottom-width
+border-left-width
+You can also specify different widths for the four border values in one property, like so:
+border-width: 2px 1px 1px 2px;
+*/

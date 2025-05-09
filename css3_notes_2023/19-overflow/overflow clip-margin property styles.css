@@ -1,0 +1,37 @@
+.main-container{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    
+}
+h2{
+    text-decoration: underline;
+}
+.random-1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 2px solid royalblue;
+    width: 300px;height: 200px;
+    margin-top: 20px;
+    box-sizing: border-box;
+}
+.random-2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 2px solid royalblue;
+    width: 300px;height: 200px;
+    margin-top: 20px;
+    box-sizing: border-box;
+    overflow: clip;
+    /* Text and typography */
+    word-break: normal
+}
+.random-3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 2px solid royalblue;
+    width: 300px;height: 200px;
+    margin-top: 20px;
+    box-sizing: border-box;
+    overflow: clip;
+    overflow-clip-margin: 45px;
+    /* Text and typography */
+    word-break: break-all;
+}

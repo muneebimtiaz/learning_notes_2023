@@ -1,0 +1,41 @@
+
+        /* Style the last child of the .container div */
+        .container :last-child {
+            color: blue;
+            font-weight: bold;
+        }
+
+        /* Style the second child of the .container div */
+        .container :nth-child(2) {
+            background-color: lightgray;
+        }
+
+        /* Style the third-to-last child of the .container div */
+        .container :nth-last-child(3) {
+            text-decoration: underline;
+        }
+
+        /* Style the only child of the .single div */
+        .single :only-child {
+            background-color: yellow;
+        }
+
+        /* Style the first paragraph within .text-container */
+        .text-container p:first-of-type {
+            font-style: italic;
+        }
+
+        /* Style the last heading within .text-container */
+        .text-container h3:last-of-type {
+            color: green;
+        }
+
+        /* Style every even-numbered list item within .list-container */
+        .list-container li:nth-of-type(even) {
+            background-color: lightblue;
+        }
+
+        /* Style every third list item counting from the end within .list-container */
+        .list-container li:nth-last-of-type(3) {
+            color: red;
+        }

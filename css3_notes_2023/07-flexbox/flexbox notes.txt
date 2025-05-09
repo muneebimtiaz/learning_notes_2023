@@ -1,0 +1,19 @@
+------flex-container properties-------
+	
+	1-flex-direction
+	2-justify-content
+	3-align-items
+	4-flex-wrap
+	5-align-content
+	6-flex-flow
+
+
+
+------flex-items properties----------
+
+	flex-grow
+	flex-shrink
+	flex-basis
+	flex
+	order
+	align-self

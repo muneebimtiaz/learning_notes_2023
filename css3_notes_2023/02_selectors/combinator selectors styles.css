@@ -1,0 +1,27 @@
+/* descendant combinator (space) */
+/* The descendant combinator selects particular elements or all children or later generations of a specific parent element. */
+ul li{
+    color: red;
+}
+
+/* child combinator (>) */
+/* The child combinator picks out elements that are directly positioned as children within a designated parent element. */
+div>p{
+    color: blue;
+}
+
+/* adjacent/next sibling combinator (+) */
+/* The adjacent sibling selector is employed to choose an element that immediately follows another specified element. */
+h3+p{
+    color: tomato;
+}
+u.tan+u{
+    background-color: tan;
+    font: black;
+}
+
+/* general sibling combinator (~) */
+/* The general sibling combinator picks all elements that are situated as siblings after a particular specified element. */
+u.cornflowerblue~u{
+    background-color:cornflowerblue;
+}

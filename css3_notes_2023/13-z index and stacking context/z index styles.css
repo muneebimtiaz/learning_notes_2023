@@ -1,0 +1,27 @@
+
+.box-items{
+    font-family: 'Roboto Condensed', sans-serif;
+    color: black;
+    width: 200px; height: 200px;
+    padding: 4px; border: 4px solid black; margin: 4px;
+    border-radius: 10px;
+    position: absolute;
+}
+.box-1{
+    top: 0em;
+    left: 0em;
+    background-color: crimson;
+}
+.box-2{
+    top: 4em;
+    left: 4em;
+    background-color: royalblue;
+}
+.box-3{
+    top: 8em;
+    left: 8em;
+    background-color: coral;
+}
+
+
+/* Note: Z index only works on positioned elements (position:absolute, position:relative, or position:fixed). */
